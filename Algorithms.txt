@@ -1,0 +1,32 @@
+
+Program Start
+
+Initialize unitName to "".
+Initialize Scanner class variable.
+Create a studentMarks array of size 25.
+Initialize marks, highest marks, lowest marks, sum, mean and standard deviation to 0.
+Take unitName from User.
+Take student marks from user.
+Repeat steps until the length of student marks.
+	if user enters valid marks
+		save the marks at the specific index in the student marks arrays.
+	Else promts the user to enter valid marks.
+Run for loop until the length of student marks array	
+	assign the first varibale of student marks array to highest and lowest marks.
+	if the value of student marks array at the i index is greater than the value stored in highestt marks
+		assign the value to the highest marks
+	if the value of student marks array at the i index is less than the value stored in lowest marks
+		assign the value to the lowest marks
+	add the value of student array in the sum variable
+End For Loop
+Divide the sum by the length of student marks array and store it in the mean varible
+Run For Loop until the length of student array
+	find the power of student array variables and cummulatively store it in a local variable named res.
+End For Loop	
+Divide the res value by length of student marks array 
+Find the standard deviation by taking square root.
+Display the results on screen 
+
+
+Program End
+
